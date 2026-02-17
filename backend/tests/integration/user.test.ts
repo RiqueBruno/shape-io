@@ -1,5 +1,5 @@
 import sequelize from "../../src/database/connection";
-import User from "../../src/models/User";
+import { User } from "../../src/models/User";
 
 describe("User Integration Tests", () => {
   beforeAll(async () => {
