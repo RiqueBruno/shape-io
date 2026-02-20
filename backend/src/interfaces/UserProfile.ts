@@ -1,3 +1,4 @@
+//* Interface for creating a new user profile
 export interface IUserProfile {
   id: number;
   name: string;
